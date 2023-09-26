@@ -93,7 +93,6 @@
     }
     
     #tela1 #preco-container {
-        display: flex;
         justify-content: center;
     }
     
@@ -363,9 +362,11 @@
         margin-bottom: 15px;
         text-align: justify;
     }
-    /* #tela6,
-#btn-vsl,
-#btn-caminho,
-#-depoimentos {
-    display: none;
-}*/
+    
+    #tela6,
+    #btn-vsl,
+    #btn-caminho,
+    #-depoimentos,
+    #preco-container {
+        display: none;
+    }
